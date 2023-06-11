@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3{
+ font-size: 45px;
+ -webkit-text-stroke-width: 3px;
+ -webkit-text-stroke-color: rgb(25, 117, 221);
+ 
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #joueurRed {
+    order: 1;
+  }
+  
+  #joueurRed-score {
+    order: 2;
+  }
+  
+  #joueurYellow {
+    order: 3;
+  }
+  
+  #joueurYellow-score {
+    order: 4;
+  
+  }
+
+#jeu{ 
+    height: 540px;
+    width: 630px;
+    background-color: rgba(22, 81, 192, 0.637);
+    border: 10px solid rgb(54, 88, 238);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+input{
+    margin-top: 6%;
+}
+
+.cases {
+    height: 70px;
+    width: 70px;
+    margin: 1%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: 3px solid rgb(25, 117, 221);
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+.score{
+  padding: 1% 15%;
+}
+
+#reset{
+  background-color: rgba(241, 53, 53, 0.699);
+  padding: 0.6rem 2.4rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}
+#restart{
+  background-color: rgb(108, 150, 30);
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}
+.red-scrore, .yellow-scrore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+}
